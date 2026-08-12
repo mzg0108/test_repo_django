@@ -1,0 +1,26 @@
+name: GitHub Actions Workflow
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  integration:
+    name: Lint and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show runner info
+        run: |
+          echo "Actor: $GITHUB_ACTOR"
+          echo "Repo:  $GITHUB_REPOSITORY"
+          echo "SHA:   $GITHUB_SHA"
+          uname -a
+          ls -la
+
+      - name: Show runner environment
+        run: set

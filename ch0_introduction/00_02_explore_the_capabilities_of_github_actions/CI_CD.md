@@ -1,0 +1,41 @@
+# What is CI/CD?
+
+For the simplest definition, CI/CD is an acronym for three phases of software development:
+
+- Continuous Integration
+- Continuous Delivery
+- and Continuous Deployment
+
+## Continuous Integration (CI)
+
+With continuous integration, developers work on their code in a local environment and commit their changes to a shared repository on a regular basis.
+
+Their code can then be combined, or in other words integrated, with code from other members of the team or any existing code.
+
+During the integration step, new code is tested and checked for any errors or any other requirements.
+
+This can include linting the code for syntax errors and running unit tests on specific features.
+
+The goal of CI is to allow teams to identify and resolve problems quickly and early in the development process.
+
+## Continuous Delivery (CD)
+
+Continuous delivery, follows the integration step.
+
+After code has been integrated, the continuous delivery step automates the build process.
+
+This step can also include additional testing at a higher level.  These tests might be more rigorous than unit tests and exercise multiple features at the same time.
+
+By the end of this step, the software will be packaged and ready for release.
+
+The goal of continuous delivery is to always have a version of the software that can be deployed into production as needed.
+
+Which leads to the next CD: continuous deployment.
+
+## Continuous Deployment (CD)
+
+At its most fundamental level, continuous deployment places software in a production environment without human interaction.
+
+In this case, the pipeline is fully automated with workflows using tests and validation to determine if the software is ready to be run in production.
+
+Using a well defined continuous deployment pipeline, development teams can release software quickly and reliably, giving them more time to focus on feature development and other engineering tasks.
