@@ -1,0 +1,24 @@
+00_01 Jumpstart Your CI/CD with Github actions
+00_01 Extra Content 01: Create a GitHub Organization for Your Course Repositories
+00_01 Extra Content 02: Using Exercise Files From the Course
+00_02 Explore the Capabilities of Github actions
+00_03 Software Versions
+01_01 Leverage Starter Workflows
+01_02 Set Up CI for Javascript
+01_03 Set Up CI for Python
+01_04 Set Up CI for Go
+01_05 Challenge: Build a CI Workflow for a Python Project
+01_06 Solution: Build a CI Workflow for a Python Project
+02_01 Deliver Software artifacts and Packages
+02_02 Build and Publish a Software Package
+02_03 Build and Publish a Container Image
+02_04 Challenge: Develop a Container Image Workflow
+02_05 Solution: Develop a Container Image Workflow
+03_01 Deploying Software with Github actions
+03_02 Continuous Deployment for Github Pages
+03_03 Create a Service account for Deployments
+03_04 Continuous Deployment for Lambda Functions
+03_05 Continuous Deployment for Infrastructure as Code
+03_06 Challenge: Build a Full CI/CD Pipeline
+03_07 Solution: Build a Full CI/CD Pipeline
+04_01 Next Steps
